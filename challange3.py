@@ -22,3 +22,7 @@ def consonant_value(word):
         max_value = max(max_value, group_value)
     
     return max_value
+
+# Test cases
+print(consonant_value("mgkEdits"))  # Output: 39
+print(consonant_value("lazy_people_are_wise"))  # Output: 66
